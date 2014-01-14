@@ -8,6 +8,7 @@ Media::Application.routes.draw do
   get 'events' => 'pages#events'
   get 'news' => 'pages#news'
   get 'cs' => 'pages#cs'
+  get 'leadership' => 'pages#leadership'
   get 'eventdesign' => 'pages#eventdesign'
   get 'brand' => 'pages#brand'
   # The priority is based upon order of creation: first created -> highest priority.
